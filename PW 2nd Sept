@@ -1,0 +1,165 @@
+1. Write a simple program in HTML  that displays the heading "HTML defines the content and structure of your website” on the web browser.
+Solution No. 1
+JavaScript
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,
+
+initial-scale=1.0">
+
+<title>Document</title>
+
+</head>
+
+<body>
+
+<h1>HTML defines the content and structure of your website</h1>
+
+</body>
+
+</html>
+
+I
+
+Output:HTML defines the content and structure of your website
+
+2. Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document.
+
+Solution No. 2
+Comments in HTML serve as non-rendered text that provides information about the code for human readers. 
+They are useful for documenting your code, explaining its purpose, making notes, or temporarily disabling parts 
+of the code without deleting them. Comments are ignored by browsers and do not affect the rendering of the 
+webpage.
+JavaScript
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,
+
+initial-scale=1.0">
+
+<title>Comments Example</title>
+</head>
+
+<body>
+
+<!-- This is a comment explaining the purpose of the following
+
+heading -->
+
+<h1>Welcome to the Website</h1>
+
+<!-- Uncomment the line below to temporarily remove the paragraph
+
+-->
+
+<!-- <p>This paragraph is currently hidden</p>
+
+<!-- Note: The above line is commented out and will not be displayed
+
+-->
+
+<!-- TODO: Add more content here later -->
+
+</body>
+
+</html>
+The first comment provides an explanation about the purpose of the heading.
+
+The second comment is used to disable the paragraph temporarily. If you remove the <1-- and --> around the <p> tag, the paragraph will be displayed.
+
+The third comment includes the "TODO" label, indicating that there's a task to be done later, such as adding more content to the webpage.
+
+3. Write an HTML program that includes a heading, a paragraph of text, a horizontal line, and a line break.. Arrange these elements to create a simple web page layout.
+Solution No.3
+
+JavaScript
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,
+
+initial-scale=1.0">
+
+<title>Simple Webpage Layout</title>
+
+</head>
+
+<body>
+
+<!-- Heading tag creates a top-level heading -->
+<h1>Discover the Beauty of Nature</h1>
+
+<!-- Paragraph tag defines a block of text -->
+
+<p>Immerse yourself in the wonders of the natural world. From breathtaking landscapes to diverse ecosystems, nature has it all.</p>
+
+<!-- Horizontal rule tag creates a thematic break or separator --> <hr>
+
+<!-- Line break tag breaks the line of text within the
+
+paragraph -->
+
+<p>Take a stroll through lush forests, listen to the gentle rustling of leaves, and experience the tranquility that only nature can provide.</p>
+
+</body>
+
+</html>
+
+4. Write a short note on Tag and element with an example.
+Solution No. 4
+In HTML, tags and elements are fundamental concepts for structuring web content.
+
+Tags
+Tags are the building blocks in HTML. They are used to define elements. Tags are enclosed in angle brackets (< >) and usually come in pairs: an opening tag (<tag>) and a closing tag (</tag>). The opening tag often contains attributes that define properties of the element.
+
+Elements
+An element consists of an opening tag, content, and a closing tag. It represents the structure or content of the webpage. Some elements are empty, meaning they don’t have content or a closing tag (e.g., <img>).
+Example
+<p>This is a paragraph.</p>
+In this example:
+
+<p> is the opening tag.
+This is a paragraph. is the content.
+</p> is the closing tag.
+The combination of these three forms a paragraph element.
+Self-closing Elements
+Some elements don’t need a closing tag:
+<img src="image.jpg" alt="Image description" />
+In this example, <img> is a self-closing element.
+
+To summarize, tags define how the content should be presented, while elements are the complete structure formed by these tags.
+
+
+5. What is the DOCTYPE Declaration in HTML?
+Solution No.5
+The <!DOCTYPE> declaration in HTML is used to specify the document type and version of HTML that the web page is written in. It helps the web browser understand how to interpret the HTML code.
+
+Purpose of <!DOCTYPE>
+It ensures that the browser renders the page in standards-compliant mode rather than in quirks mode, which could affect how the page is displayed.
+The declaration must be the very first line in an HTML document, before the <html> tag.
+Example: HTML5 Doctype
+
+
+
+
+
